@@ -1,7 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+Fuwari adalah media edukasi wibu skills yang mengajarkan pengkodingan, game, dan menjadi anime yang tidak diajarkan disekolah untuk mencapai nolep sejati.
 
-::github{repo="saicaca/fuwari"}
+::github{repo="EvelynXD/EvelynXD"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
