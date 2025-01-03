@@ -1,6 +1,6 @@
 ---
 title: Fakta Hilichurls - [ Genshin Impact ]
-published: 2023-01-08
+published: 2022-05-08
 description: 'Hilichurls dulunya orang Khaenriah yang kena kutukan, tapi Hilichurls secara umum'
 image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlVs_oMfqptoan6-7wkwhJ6-aZJ5IFPMYWj_xLeDxIRrYgGcVSkpXUYZ-X2XQHMycloQ30CMAoQ9wHzvYx1jL__0HpZU--KjiSl-Wtci0NTztpIZz1rTn1GixqRO-6z_VW4ZDu3loclLgzn8kNa2rBqk2M29UdY9_2xGVz_dinK2zbRNFR1LvXdlPcjcQ8/s1600/Fakta%20Hilichurls%20-%20%5B%20Genshin%20Impact%20%5D%20%5B2B7A825%5D.png'
 tags: ['Game', 'Dongeng']
@@ -11,7 +11,7 @@ lang: ''
 
 Hilichurls dulunya orang Khaenriah yang kena kutukan, tapi Hilichurls secara umum,bukan hanya  dari Khaenriah yang kena kutukan,melainkan ada potensi dari bangsa lain sebelum Khaenriah yang juga kena kutukan, itu dimungkinkan.
 <!--more-->
-<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX3-cEGH80qnBnuSPOJ87z6B5rBUJkJ2DdewJhh7C9bJwC7r8W4JplAcDbXEyqugPKwJvLln_eKZHFeH3wsldsLauMcmyCR9GwuqDUciBpfW4HjOy8sVpeU2sQqIZDLLfZZmLCTWTnFlAddoL2S7uhFlhgTCdAZB5MStiroCjVc2dLJFPwl0bKae4XQGE/s1600/324092418_1210029276614423_918933404458509653_n.jpg" style="display: block; padding: 1em 0px; text-align: center;"><img alt="" border="0" data-original-height="577" data-original-width="526" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX3-cEGH80qnBnuSPOJ87z6B5rBUJkJ2DdewJhh7C9bJwC7r8W4JplAcDbXEyqugPKwJvLln_eKZHFeH3wsldsLauMcmyCR9GwuqDUciBpfW4HjOy8sVpeU2sQqIZDLLfZZmLCTWTnFlAddoL2S7uhFlhgTCdAZB5MStiroCjVc2dLJFPwl0bKae4XQGE/s1600/324092418_1210029276614423_918933404458509653_n.jpg" /></a></div>
+<div class="separator" style="clear: both;"><img alt="" border="0" data-original-height="577" data-original-width="526" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX3-cEGH80qnBnuSPOJ87z6B5rBUJkJ2DdewJhh7C9bJwC7r8W4JplAcDbXEyqugPKwJvLln_eKZHFeH3wsldsLauMcmyCR9GwuqDUciBpfW4HjOy8sVpeU2sQqIZDLLfZZmLCTWTnFlAddoL2S7uhFlhgTCdAZB5MStiroCjVc2dLJFPwl0bKae4XQGE/s1600/324092418_1210029276614423_918933404458509653_n.jpg" /></div>
 
 
 

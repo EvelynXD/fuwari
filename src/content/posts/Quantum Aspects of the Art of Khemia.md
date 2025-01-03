@@ -134,6 +134,7 @@ $DMG_(Base)=(ATK*Mu l t_(Ta l entsf" 1")+HP*Mu l t_(4thsf"
 Contoh lainnya adalah Cinnabar Spindle, yang dilengkapi dengan Xingqiu (C4
   memberikan damage meningkatkan ke E-skill) itu akan meningkatkan skill damage
   elemennya sebagai berikut:
+<div style="overflow-x: scroll;">
 
 $ 
 \begin{aligned}
@@ -142,6 +143,7 @@ $
 \end{aligned}
 $
 
+</div>
 
 ### 1.1.5. Damage Bonus
 
@@ -171,7 +173,7 @@ $\overline{\phantom{xxxxxxxxxxxxxxxxxxxxxxx}}$<br>
 
 Rata-rata damage<sup>5</sup> kemudian diberikan oleh
 
-<div style="text-align:center">
+<div style="text-align:center; overflow-x: auto;">
 
 $ 
 \begin{aligned}
@@ -223,7 +225,7 @@ di mana $ \text{DEF}_{\text{Reduction}} $ mempertimbangkan pengurangan pertahana
 
 <p style="text-indent: 30px">Dengan menggunakan model fungsi rasional, pengurangan damage yang bergantung pada pertahanan pemain bertahan dan tingkat penyerang (yang dinyatakan melalui pertahanan intrinstik) telah disimpulkan menjadi</p>
 
-<div style="text-align:center">
+<div style="text-align:center; overflow-x: auto">
 
 $ \text{DMG}_{\text{Reduction,DEF}} = \frac{\text{DEF}_{\text{Defender}}}{\text{DEF}_{\text{Defender}} + \tilde{\text{DEF}}_{\text{Attacker}}} $ </div>
 
@@ -238,7 +240,7 @@ $ \text{Mult}_{\text{DEF}} = 1 - \text{DMG}_{\text{Reduction,DEF}} $</div>
 
 dalam kasus karakter menyerang musuh, dapat disederhanakan menjadi
 
-<div style="text-align:center">
+<div style="text-align:center; overflow-x: auto">
 
 $ \text{Mult}_{\text{DEF}} = \frac{\text{Level}_{\text{Character}} + 100}{\left( (1 - \text{DEF}_{\text{Ignore}}) \cdot (1 - \text{DEF}_{\text{Reduction}}) \cdot (\text{Level}_{\text{Enemy}} + 100) \right) + (\text{Level}_{\text{Character}} + 100)} $</div>
 
@@ -247,7 +249,7 @@ Selanjutnya, variabel $ \text{DEF}_{\text{Ignore}} $ ditambahkan, untuk mengenai
 <sup>7</sup>
 
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-  <div style="text-align: center; flex: 1; max-width: 100%; display: inline-block; margin: 10px;">
+  <div style="text-align: left; flex: 1; max-width: 100%; display: inline-block; margin: 10px;">
     <img alt="genshin impact" class="lazy" src="https://raw.githubusercontent.com/AlenaMiaw/Blogger-Post/b71448a1b78b4d8f0abe18b396d907c61a453238/svg/1%20Tidak%20ada%20pengurangan%20pertahanan.svg" style="max-width: 100%; height: auto;"/>
     <sup><b>a.</b> Tidak ada pengurangan pertahanan.</sup>
   </div>
@@ -295,7 +297,7 @@ Karakter atau musuh memiliki resistensi dasar yang berbeda $RES\left(\text{Base}
 
 dan telah ditentukan oleh analisis regresi memiliki bentuk sebagai berikut
 
-<div style="text-align:center">
+<div style="text-align:center; overflow-x: auto">
 
 $$
 Mult_{\text{RES}}= 
@@ -459,6 +461,8 @@ Amplifying Reactions adalah melt dan vaporize. Melt adlah reaksi unsur yang dipi
 <p style="text-indent: 30px;">
 Reaksi ini menambahkan pengganda ekstra pada damage dan bonus reaksi dari pemicu karakter. Ketika reaksi penguat terjadi, total damage yang diterima karakter atau musuh dapat diekspresikan dengan</p>
 
+<div style="overflow-x: auto">
+
 $$
 DMG_{\text{Amplified}} = DMG_{\text{Total}} \cdot Mult_{\text{Amplified}}
 $$
@@ -474,6 +478,8 @@ Mult_{\text{Reaction}} =
 1.5 & \text{for reverse melt/vaporize.}
 \end{cases}
 $$
+
+</div>
 
 **Contoh 1.4** (Amplifying reaksi (Reverse melt) dengan HU Tao): *Hu Tao, dilengkapi dengan satu set artefak CWoF 4pc, digunakan untuk menyebabkan reverse melt reaksi, di mana Kokomi hanya digunakan untuk aplikasi hydro. Stat $EM$ Hu Tao berjumlah 65 (lihat gambar [1.7](#g7)), memberinya bonus elemental mastery dasar $EM_{\text{Bonus},\%}$ = 12,3%, menurut persamaan ([1.18](#rumus1.18)) dan tabel [1.1](#tab1.1). Dengan bonus reaksi 15% dari set CWoF 4pc, pengali reaksi reverse melt sebesar 1,5 dan persamaan ([1.20](#rumus1.20)) pengali amplifying adalah $Mult_{\text{Amplified}}$ = 1,91.*
 
@@ -501,6 +507,8 @@ $$
 
 Reaksi transformatif adalah overload, shatter, electro-charge, superconduct, dan swril<sup>9</sup>. Ini hanya berskala dengan level karakter pemicu<sup>10</sup>, elemental mastery, bonus reaksi dan resistensi musuh (seperti biasa mereka tidak terpengaruh oleh statistik apa pun yang terkait dengan karakter menerapka elemen terlebih dahulu). Dengan kata lain, reaksi transformatif tidak memiliki skala karaker menyerang, tidak bisa critical, mengabaikan defense objek (oleh karena itu untuk musuh independen dari leve; di sana), tidak dapat dibuff dengan bonus damage , metode increase damage juga tidak dipengaruhi oleh reduction damage
 
+<div style="overflow-x: auto">
+
 $$
 \begin{align*}
 DMG_{\text{Transformative}} &= Mult_{\text{RES}}\;\cdot\; Mult_{\text{Transformative}} \\
@@ -516,6 +524,8 @@ Mult_{\text{Reaction}} &= \left\{
 \right.
 \end{align*}
 $$
+
+</div>
 
 Pengali level untuk karakter tercantum dalam lampiran [B.2](#B.2), tetapi karena sebagian besar pemain memiliki karakter yang maksimal hingga titik tertentu, nilai $Mult_{\text{Level(80)}}$ = 1.077,4 dan $Mult_{\text{Level(90)}}$ = 1.446,9 atau gambar [1.8](#g1.8) seharusnya sudah cukup untuk sebagian besar pemain.
 
@@ -553,8 +563,11 @@ chart 5
 
 musuh. Reaksi yang disebut swirl-induced ini berperilaku dan berskala persis sama dengan reaksi transformatif, di mana untuk memperkuat reaksi, produk dari swirl dan amplifying multiplier digunakan:
 
+<div style="overflow-x: scroll">
+
 $DMG_{\text{Swirl-Induced}} = Mult_{\text{RES,2nd Enemy}} \cdot \left( \text{Mult}_{\text{Transformative}}, \left( \text{Mult}_{\text{Transformative,Swirl}} \cdot \text{Mult}_{\text{Amplified}} \right) \right)$
 
+</div>
 
 Dalam kedua kasus tersebut, pengganda level didasarkan pada karakter yang memicu swirl.
 
@@ -628,6 +641,7 @@ Tentu saja secara teoritis seseorang dapat meningkatkan damage lebih lanjut deng
 
 <p style="text-indent: 30px;">Bagian pertama terdiri dari menghitung statistik Raiden setelah menerapkan setiap buff yang disebutkan di atas:</p>
 
+<div style="overflow-x: scroll">
 
 $$
 \begin{align*}
@@ -641,11 +655,13 @@ $$
 \end{align*}
 $$
 
+</div>
+
 <br>
 Selanjutnya pengganda bonus talent dan damage<sup>14</sup>:
 <br><br>
 
-
+<div style="overflow-x: scroll">
 
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
   <mtable displaystyle="true" columnalign="right left" columnspacing="0em" rowspacing="3pt">
@@ -1003,6 +1019,7 @@ Selanjutnya pengganda bonus talent dan damage<sup>14</sup>:
   </mtable>
 </math>
 
+</div>
 
 Dengan persamaan (<a href="rumus1.2">1.1</a>), hal ini menghasilkan damage dasar sebesar
 
@@ -1018,6 +1035,7 @@ Terakhir, perhitungan total damage menurut bab <a>1.2</a>:
 $\overline{\phantom{xxxxxxxxxxxxxxxxxxxxxxx}}$<br>
 <sup>14</sup>Untuk akurasi yang lebih tinggi, seseorang dapat mengambil nilai exacter, alih-alih nilai yang ditampilkan di dalam game, dari misalnya <a target="_blank" href="https://genshin.honeyhunterworld.com/">https://genshin.honeyhunterworld.com/</a>.
 
+<div style="overflow-x: scroll">
 
 $$
 \begin{align*}
@@ -1037,6 +1055,7 @@ $$
 \end{align*}
 $$
 
+</div>
 
 Angka-angka ini setara dengan damage pada gambar <a href="#g9">1.9</a>, dengan mempertimbangkan pembulatan dalam game. Untuk referensi, Raiden di C0 akan menghasilkan 209 k dengan tebasan burst awal dalam pengaturan ini.<br />Melengkapi Beidou dengan R5 WG dan Sucrose dengan R5 TToDS, serangan awal akan meningkat menjadi 406,5 k, di mana mengganti Beidou dengan C6 Sara dengan buff serangan maksimal akan menghasilkan 475,8 k.
 
@@ -1095,6 +1114,8 @@ Pada bagian ini, damage akibat swirl dan swirl-induced dari Sucrose, yang dileng
 
 Dengan persamaan (<a>1.22</a>) dan rumus yang tercantum dalam bagian <a href="#rumus1.3">1.3</a>, damage akibat sewirl adalah sebesar:
 
+<div style="overflow-x: scroll">
+
 $$
 \begin{align*}
  RES_{\text{\%}} &= RES_{\text{Base,\%}} - RES_{\text{Debuff,VV,\%}} = 10\text{\%} - 40\text{\%} = -30\text{\%}, \\
@@ -1107,9 +1128,11 @@ $$
 \end{align*}
 $$
 
+</div>
 
 Analog dengan persamaan (<a>1.25</a>), overload yang diinduksi oleh swirl dan (reverse-)melt damage dapat dihitung, di mana beberapa perhitungan resistensi sepele, dll. Dilewati dan diasumsikan bahwa hanya ada dua musuh dalam contoh ini. Ingatlah bahwa hanya resistensi dari elemen yang ada pada musuh sebelum swirl dipicu akan berkurang, misalnya swirl yang diinduksi damage yang berlebihan dianggap sebagai damage pyro dan hanya musuh yang diinfus dengan pyro sebelumnya swirl yang terjadi akan membuat resistensi pyro berkurang dan karena menerima lebih banyak damage daripada musuh yang diinfus electro sebelumnya.
 
+<div style="overflow-x: scroll">
 
 $$
 \begin{align*}
@@ -1128,6 +1151,8 @@ DMG_{\text{Swirl-Induced Reverse-Melt}} &= Mult_{\frac{\text{RES(cryo),}}{\text{
 &= 0.9 \cdot 5,596 \cdot 3.097 = 15,599 \pm 8.
 \end{align*}
 $$
+
+</div>
 
 
 Angka-angka ini setara dengan damage pada gambar <a href="#g11">1.11</a>, dengan mempertimbangkan pembulatan dalam game. Satu dapat dengan jelas melihat bahwa mengurangi resistensi yang sesuai sangat memperkuat yang disebabkan oleh swirl-induced damage, itulah mengapa terutama taser comps diterima dengan sangat baik, karena hydro dan elektro tetap ada pada semua musuh pada saat yang sama dan reaksi swirl (4pc VV-set) mengurangi kedua resistensi oleh karena itu, saat memberikan hydro-swirl, electro-swirl, dan electro-charge damage yang diinduksi swirl.
